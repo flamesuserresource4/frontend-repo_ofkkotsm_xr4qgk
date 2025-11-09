@@ -1,28 +1,40 @@
-import { useState } from 'react'
+import Hero from "./components/Hero";
+import Skills from "./components/Skills";
+import Experience from "./components/Experience";
+import Projects from "./components/Projects";
+import Education from "./components/Education";
 
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 to-blue-50 flex items-center justify-center">
-      <div className="bg-white p-8 rounded-lg shadow-lg">
-        <h1 className="text-3xl font-bold text-gray-800 mb-4">
-          Vibe Coding Platform
-        </h1>
-        <p className="text-gray-600 mb-6">
-          Your AI-powered development environment
-        </p>
-        <div className="text-center">
-          <button
-            onClick={() => setCount(count + 1)}
-            className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded"
-          >
-            Count is {count}
-          </button>
+    <div className="min-h-screen bg-white text-slate-900">
+      <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/80 backdrop-blur">
+        <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
+          <div className="font-semibold">Portfolio</div>
+          <nav className="hidden gap-6 text-sm sm:flex">
+            <a href="#skills" className="hover:text-slate-900/80">Färdigheter</a>
+            <a href="#experience" className="hover:text-slate-900/80">Erfarenhet</a>
+            <a href="#projects" className="hover:text-slate-900/80">Projekt</a>
+            <a href="#education" className="hover:text-slate-900/80">Utbildning</a>
+          </nav>
         </div>
-      </div>
-    </div>
-  )
-}
+      </header>
 
-export default App
+      <main>
+        <Hero />
+        <section id="skills"><Skills /></section>
+        <section id="experience"><Experience /></section>
+        <section id="projects"><Projects /></section>
+        <section id="education"><Education /></section>
+      </main>
+
+      <footer className="border-t border-slate-200 bg-slate-50 py-8 text-sm">
+        <div className="mx-auto max-w-6xl px-6 text-slate-600">
+          <p>
+            Språk: Engelska (modersmål), Svenska (modersmål), Marathi (modersmål), Hindi (flytande), Tyska (medelnivå)
+          </p>
+          <p className="mt-2">© {new Date().getFullYear()} — Byggd med React & Tailwind</p>
+        </div>
+      </footer>
+    </div>
+  );
+}
