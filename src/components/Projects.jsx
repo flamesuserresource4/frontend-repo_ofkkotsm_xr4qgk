@@ -1,47 +1,47 @@
-import { Code2, FlaskConical, LineChart, Brain } from "lucide-react";
+import { Calculator, Sigma, LineChart, Layers } from "lucide-react";
 
 const projects = [
   {
     title: "Monte Carlo-riskestimering för volatila system",
-    stack: "Python · NumPy · variansreduktion",
-    icon: <FlaskConical className="h-5 w-5" />,
+    stack: "Python · NumPy · Variansreduktion",
+    icon: <Calculator className="h-5 w-5" />,
     desc:
-      "Utvecklade simulering för att modellera osäkerhet och tail-risk. Konvergenstester ökade effektiviteten med 25%.",
+      "Simulerade tail-risk och osäkerhet i dynamiska system. Konvergenstester och kontrollvariabler gav +25% effektivitet.",
   },
   {
-    title: "Prognoser för brusiga tidsserier med probabilistiska modeller",
-    stack: "Python · AR/LSTM · Bayes",
+    title: "Prognoser för brusiga tidsserier",
+    stack: "Python · AR/ARIMA · Bayes · Filtrering",
     icon: <LineChart className="h-5 w-5" />,
     desc:
-      "Byggde en modell för att förutsäga brusiga serier likt finansdata. Osäkerhetskvantifiering och stabilitet förbättrades.",
+      "Modellerade serier med autoregressiva modeller och tillståndsrymd. Kvantifierade osäkerhet och förbättrade stabilitet.",
   },
   {
-    title: "Husprisprognosmodell",
-    stack: "Python · Regression · Brownska rörelser",
-    icon: <Brain className="h-5 w-5" />,
+    title: "Huspris – stokastisk modell",
+    stack: "Regression · Brownska rörelser · SDE",
+    icon: <Sigma className="h-5 w-5" />,
     desc:
-      "Analyserade bostadsdata och simulerade stokastisk prisevolution.",
+      "Analyserade data och modellerade prisevolution som stokastisk process för scenarioanalys.",
   },
   {
-    title: "Simulering av epidemispridning",
-    stack: "Python · Gillespie · stokastik",
-    icon: <Code2 className="h-5 w-5" />,
+    title: "Epidemispridning – diskret händelsesimulering",
+    stack: "Gillespie · stokastik · parameterkänslighet",
+    icon: <Layers className="h-5 w-5" />,
     desc:
-      "Modellerade sjukdomsspridning med stokastiska metoder och utvärderade systemstabilitet.",
+      "Utvärderade dynamik och stabilitet med stokastisk simulering och känslighetsstudier.",
   },
   {
     title: "Referensräknare för minneshantering",
-    stack: "C · datastrukturer",
-    icon: <Code2 className="h-5 w-5" />,
+    stack: "C · datastrukturer · prestanda",
+    icon: <Layers className="h-5 w-5" />,
     desc:
-      "Designade ett anpassat referensräkningssystem för hash-tabeller och länkade listor.",
+      "Implementerade effektiv referensräkning för hash-tabeller och länkade listor.",
   },
   {
     title: "Wordfeud-lösare",
-    stack: "TypeScript · Röd-svart-träd",
-    icon: <Code2 className="h-5 w-5" />,
+    stack: "TypeScript · Röd-svart-träd · sök",
+    icon: <Calculator className="h-5 w-5" />,
     desc:
-      "Implementerade sökalgoritm för effektiv ord-filtrering och ordboksuppslag.",
+      "Sök och filtrering med balans-träd för snabba uppslag och kombinationer.",
   },
 ];
 

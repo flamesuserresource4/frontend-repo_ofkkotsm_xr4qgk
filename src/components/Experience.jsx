@@ -2,14 +2,14 @@ import { Briefcase, Building2 } from "lucide-react";
 
 const experiences = [
   {
-    role: "AI-utvecklare & systemdesigner — Kandidatuppsats",
+    role: "Kvantitativ modellering — Kandidatuppsats",
     company: "Rebuildr & Partners",
     period: "2025",
     bullets: [
-      "Medutformade och utvecklade KvickSell, ett AI-drivet system för automatiska annonser och CO₂-besparingar.",
-      "Implementerade LLM och vektordatabas för bildanalys och fältextraktion, ökade noggrannheten med 30%.",
-      "Samarbetade kring datamängder, modellevaluering och kravspecifikation.",
-      "Levererade ML-insikter om materialåterbruk och hållbarhet i byggsektorn.",
+      "Utformade KvickSell med fokus på kvantitativa metoder för prissättning och resurseffektivitet.",
+      "Byggde vektoriserade pipeline: dataextraktion, statistisk analys och osäkerhetsmodellering.",
+      "Genomförde modellvalidering, konfidensintervall och känslighetsanalys.",
+      "Kvantifierade potentiella CO₂-besparingar med Monte Carlo-simuleringar.",
     ],
   },
   {
@@ -17,8 +17,8 @@ const experiences = [
     company: "Advania",
     period: "2023–2025",
     bullets: [
-      "Konfigurerade och driftsatte IT-system för företagskunder och skolor.",
-      "Hanterade storskaliga system för tillgångsspårning och förbättrade precision och effektivitet.",
+      "Konfigurerade och driftsatte system; mätte och förbättrade processernas tillförlitlighet.",
+      "Implementerade spårningsrutiner och rapporter baserat på dataunderlag.",
     ],
   },
   {
@@ -26,8 +26,8 @@ const experiences = [
     company: "Uppsala University Makerspace",
     period: "2023–2025",
     bullets: [
-      "Ledde workshops i programmering och 3D-modellering.",
-      "Stödde teknisk problemlösning och kreativ projektutveckling.",
+      "Ledde workshops i programmering, numeriska metoder och 3D-modellering.",
+      "Stödde teknisk problemlösning och metodisk prototypning.",
     ],
   },
   {

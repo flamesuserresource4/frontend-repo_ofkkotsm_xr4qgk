@@ -1,44 +1,55 @@
-import { Wrench, Atom, Database, BarChart3, GitBranch } from "lucide-react";
+import { Wrench, Sigma, FunctionSquare, Database, BarChart3 } from "lucide-react";
 
 const categories = [
   {
     title: "Programmering & Verktyg",
     icon: Wrench,
-    items: ["Python", "C/C++", "Java", "TypeScript/JavaScript", "MATLAB", "SQL", "Git", "Linux", "Docker"],
-  },
-  {
-    title: "ML & Dataanalys",
-    icon: Atom,
     items: [
-      "PyTorch",
-      "scikit-learn",
-      "NumPy · pandas · SciPy",
-      "regressionsanalys",
-      "Monte Carlo & stokastik",
-      "tidsserieprognoser",
-      "feature engineering",
-      "modelloptimering",
+      "Python",
+      "C/C++",
+      "Java",
+      "TypeScript/JavaScript",
+      "MATLAB",
+      "SQL",
+      "Git · Linux · Docker",
     ],
   },
   {
-    title: "Databaser",
-    icon: Database,
-    items: ["SQL", "ETL", "schemadesign", "vektordatabaser"],
+    title: "Matematik & Modellering",
+    icon: Sigma,
+    items: [
+      "Sannolikhetsteori & statistik",
+      "Stokastiska processer (BM, Poisson, SDE)",
+      "Monte Carlo, variansreduktion",
+      "Numeriska metoder",
+      "Optimering (gradientbaserad & konvex)",
+      "Statistisk inferens & lärandeteori",
+    ],
   },
   {
-    title: "Visualisering & Data Governance",
+    title: "Tidsserier & Prognoser",
+    icon: FunctionSquare,
+    items: [
+      "AR/ARIMA · SARIMA",
+      "Linjär-regression & regularisering",
+      "Tillståndsrymdsmodeller & filtrering",
+      "Osäkerhetskvantifiering",
+    ],
+  },
+  {
+    title: "Databaser & Dataflöden",
+    icon: Database,
+    items: ["SQL", "ETL", "Schemadesign", "Vektorindex/embeddings"],
+  },
+  {
+    title: "Visualisering & Kvalitet",
     icon: BarChart3,
     items: [
       "Matplotlib · Seaborn · Plotly",
-      "Datakvalitet & datastyrning",
-      "metadata & dokumentation",
-      "root cause analysis",
+      "Datakvalitet & dokumentation",
+      "Metadata & datastyrning",
+      "Root cause analysis",
     ],
-  },
-  {
-    title: "Övrigt",
-    icon: GitBranch,
-    items: ["JupyterLab", "VS Code", "Autodesk CAD", "Blender", "Autodesk Inventor"],
   },
 ];
 
