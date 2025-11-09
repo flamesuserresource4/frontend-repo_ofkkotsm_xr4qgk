@@ -8,7 +8,7 @@ export default function App() {
     <div className="min-h-screen bg-white text-slate-900">
       <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/80 backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-          <div className="font-semibold">Portfolio — Quant · Dataanalys · Maskininlärning</div>
+          <div className="font-semibold">Portfolio — AI · Dataanalys · Maskininlärning</div>
           <nav className="hidden gap-6 text-sm sm:flex">
             <a href="#skills" className="hover:text-slate-900/80">Färdigheter</a>
             <a href="#experience" className="hover:text-slate-900/80">Erfarenhet</a>

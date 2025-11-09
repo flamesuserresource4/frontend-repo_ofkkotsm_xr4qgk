@@ -1,4 +1,4 @@
-import { Sigma, FunctionSquare } from "lucide-react";
+import { Rocket, FunctionSquare } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -7,26 +7,25 @@ export default function Hero() {
         <div className="grid items-center gap-10 md:grid-cols-5">
           <div className="md:col-span-3">
             <div className="inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1 text-sm backdrop-blur">
-              <Sigma className="h-4 w-4" />
+              <Rocket className="h-4 w-4" />
               <span>Masterstudent i Data Science</span>
             </div>
             <h1 className="mt-6 text-4xl font-extrabold tracking-tight sm:text-5xl">
-              Kvantitativ analytiker & modellutvecklare
+              AI‑ingenjör & ML‑utvecklare
             </h1>
             <p className="mt-4 max-w-2xl text-slate-200">
-              Fokus på sannolikhetsteori, stokastiska processer, numeriska metoder och optimering. 
-              Erfarenhet av kvantitativ modellering, simulering och statistisk inferens för att beskriva 
-              osäkerhet och risk i dynamiska system.
+              Fokus på moderna AI‑metoder: stora språkmodeller, klassisk maskininlärning och MLOps. Erfarenhet av
+              modellutveckling, utvärdering och produktionssättning av intelligenta system för riktiga användarfall.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <span className="rounded-md bg-emerald-500/10 px-3 py-1 text-emerald-300 ring-1 ring-emerald-500/30">
-                SDE:er · Monte Carlo · variansreduktion
+                LLM · NLP · GenAI
               </span>
               <span className="rounded-md bg-indigo-500/10 px-3 py-1 text-indigo-300 ring-1 ring-indigo-500/30">
-                Tidsserier · ARIMA/LSTM · signalutjämning
+                MLOps · Model serving · Evaluering
               </span>
               <span className="rounded-md bg-rose-500/10 px-3 py-1 text-rose-300 ring-1 ring-rose-500/30">
-                Gradientbaserad & konvex optimering
+                Klassisk ML · CV · tidsserier
               </span>
             </div>
           </div>
@@ -39,7 +38,7 @@ export default function Hero() {
                 <div>
                   <h3 className="text-lg font-semibold">Uppsala universitet</h3>
                   <p className="text-sm text-slate-300">Masterprogram i Data Science — Pågående</p>
-                  <p className="mt-2 text-sm text-slate-300">Inriktning: statistisk inlärning, sannolikhet, simulering och dataanalys</p>
+                  <p className="mt-2 text-sm text-slate-300">Inriktning: maskininlärning, AI‑system, dataanalys</p>
                 </div>
               </div>
               <div className="mt-6 grid grid-cols-2 gap-3 text-sm text-slate-300">
@@ -49,7 +48,7 @@ export default function Hero() {
                 </div>
                 <div>
                   <p className="font-medium text-white">Verktyg</p>
-                  <p>Python, NumPy, pandas, SciPy, Git</p>
+                  <p>Python, PyTorch, scikit‑learn, pandas, Git</p>
                 </div>
               </div>
             </div>
